@@ -20,6 +20,8 @@ This is what it looks like after:
 
 <img src='https://raw.githubusercontent.com/owocki/photo_workflow_tools/master/examples/after.gif' />
 
+Much cleaner, huh?  I've gone from several keystrokes and a mouse click-and-drag to a simple button press.  Better yet, keyboard shortcuts from `y` and `n`.
+
 ## Post-processing step 2: Crop
 
 TODO
