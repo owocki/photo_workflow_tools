@@ -1,0 +1,7 @@
+
+# the directory to read from
+PIX_HOME_DIR = 'static/pix/'
+
+# append this text to files that have been 'promoted'
+PIX_WHEN_PROMOTING_APPEND_THIS_TEXT = 'promoted'
+

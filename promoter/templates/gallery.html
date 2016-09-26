@@ -1,0 +1,25 @@
+{% extends 'index.html' %}
+{% block content %}
+  <a href="/"><< Back to Index</a>
+  <div class="m-t-1">
+    <h1>Photo Promoter: {{dir}}</h1>
+  </div>
+  <p class="lead">For each photo, decide whether you want to promote it to '{{promotion_text_addition}}' subset</p>
+  {% if img %}
+      <img src="{{img}}" style='max-width: 100%;'>
+      <div style="padding: 10px 50px;">
+        <h2 style="margin:5px; float:left;"> Promote to `{{promotion_text_addition}}`? </h2>
+          <form action='/gallery/?dir={{dir}}&i={{i}}' method=POST >
+            <input type='submit' name="promote" class="btn btn-lg btn-success" value="yes" style="float:right; margin: 5px;">
+            <input type='submit' name="promote" class="btn btn-lg btn-warning" value="no" style="float:right; margin: 5px;">
+            <input type='hidden' name='file' value='{{img}}'>
+            {% csrf_token %}
+          </form>
+      </div>
+  {% else %}
+    <div class="alert alert-info">
+      <strong>No more files found!
+    </div>
+
+  {% endif %}
+{% endblock %}

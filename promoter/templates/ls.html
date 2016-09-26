@@ -1,0 +1,13 @@
+{% extends 'index.html' %}
+{% block content %}
+  <div class="m-t-1">
+    <h1>Photo Promoter: {{dir}}</h1>
+  </div>
+  <ul>
+  {% for subdir in sub_dirs %}
+    <li>
+      <a href="gallery/?dir={{subdir}}">{{subdir}}</a>
+    </li>
+  {% endfor %}
+  </ul>
+{% endblock %}

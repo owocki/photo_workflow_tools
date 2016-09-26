@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Photo Promoter</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <div class="container" style="min-height: 800px;">
+    {% block content %}
+    {% endblock %}
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">photography.owocki.com</span>
+      </div>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="/static/js/bootstrap.js"></script>
+    <script>
+        $(document).keypress(function(e) {
+          console.log(e.which);
+          if(e.which == 121) {
+            // y
+            $('input[name=promote][value=yes]').click();
+          }
+          if(e.which == 110) {
+            // n
+            $('input[name=promote][value=no]').click();
+          }
+        });
+    </script>
+  </body>
+</html>
