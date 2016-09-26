@@ -26,7 +26,7 @@ Much cleaner, huh?  I've gone from several keystrokes and a mouse click-and-drag
 
 TODO
 
-## Post-processing step 3: Edit, markup
+## Post-processing step 3: Edit, markup, watermark
 
 TODO
 
