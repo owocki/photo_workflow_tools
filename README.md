@@ -4,11 +4,11 @@ Photo Workflow Tools
 
 A suite of tools developed to make photography workflows a little more automated.  
 
-Target Audience: Photographys who are comfortable with the command line.
+Target Audience: Photographers who are comfortable with the command line.
 
 # Why?
 
-To automate (or gracefully degrade into just being more efficient) my photography post-processing process.
+To automate (or gracefully degrade into just being more efficient) my photography batch post-processing process.
 
 ## Post-processing step 1: Select the best photos
 
