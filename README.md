@@ -14,11 +14,11 @@ To automate (or gracefully degrade into just being more efficient) my photograph
 
 One of the first elements of my photography workflow is to select which photos are *worth* post-process.  To do so, I need to select which of my set of photos to *promote* to a 'best' subset.  This is what it looked like before:
 
-<img src='http://bits.owocki.com/3e1g1Q0W2233/Screen%20Recording%202016-09-26%20at%2008.32%20AM.gif' />
+<img src='https://raw.githubusercontent.com/owocki/photo_workflow_tools/master/examples/before.gif' />
 
 This is what it looks like after:
 
-<img src='http://bits.owocki.com/1o412G3u3G3D/Screen%20Recording%202016-09-26%20at%2008.35%20AM.gif'/>
+<img src='https://raw.githubusercontent.com/owocki/photo_workflow_tools/master/examples/after.gif' />
 
 ## Post-processing step 2: Crop
 
